@@ -1,0 +1,7 @@
+mientras (a < b)
+
+
+mientras (a < b or a == c)
+
+
+mientras (x >= y and z < w)

@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 400px; /* Ajusta este valor para cambiar el ancho máximo */
+}
+
+.campo-texto {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que padding no aumente el ancho */
+    font-size: 16px; /* Ajusta este valor para cambiar el tamaño del texto */
+}
+
+/* Pequeñas mejoras para dispositivos más grandes */
+@media (min-width: 768px) {
+    .campo-texto {
+        padding: 15px;
+        font-size: 18px; /* Texto más grande en dispositivos más grandes */
+    }
+}
+
+/* Continuación de los estilos anteriores */
+
+.boton-accion {
+    padding: 10px 15px;
+    font-size: 16px; /* Ajusta este valor para cambiar el tamaño del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    margin: 5px 0; /* Espaciado alrededor del botón */
+}
+
+.boton-accion:hover {
+    background-color: #0056b3; /* Un poco más oscuro al pasar el mouse */
+}
+
+.area-texto {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
